@@ -1,0 +1,29 @@
+.main {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 140px 0 40px;
+    // text-align: center;
+    align-items: center;
+  }
+  &__descr {
+    align-items: center;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    background: linear-gradient(90deg, #000bff -14.55%, #ffa451 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 60px;
+  }
+  &__subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 181.19%;
+    color: #555555;
+  }
+}

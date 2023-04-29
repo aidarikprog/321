@@ -1,0 +1,85 @@
+.pricing {
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    background: linear-gradient(90deg, #000bff -14.55%, #ffa451 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    margin: 50px 0 100px;
+  }
+}
+
+.products {
+  // display: grid;
+  // grid-template-columns: repeat(auto-fill, 338px);
+  // gap: 20px 53px;
+  display: flex;
+  gap: 20px 53px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+  &__card {
+    max-width: 338px;
+    text-align: center;
+    box-shadow: -17px 14px 68px -4px #d5e4ff;
+    border-radius: 44px;
+    padding: 45px 35px 35px;
+  }
+  &__name {
+    text-align: center;
+    color: #b8477d;
+    &-a {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 72px;
+    }
+    &-plan {
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 48px;
+    }
+  }
+  &__price {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    padding: 20px 0;
+    color: #2f2f2f;
+
+    &-sub {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      text-align: center;
+      color: #2f2f2f;
+    }
+  }
+  &__descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #464646;
+    margin-bottom: 30px;
+  }
+  &__btn {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 14px 81px;
+    background: #b8477d;
+    box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
+    border-radius: 34px;
+  }
+}
+
+.products__card:hover{
+  transform: scale(1.2) ;
+  transition-duration:  1s;
+}

@@ -1,0 +1,27 @@
+.service {
+  .services {
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+  &__content {
+    // text-align: center;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    background: linear-gradient(90deg, #000bff -14.55%, #ffa451 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 35px;
+  }
+  &__subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #464646;
+  }
+}

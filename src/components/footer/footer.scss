@@ -1,0 +1,14 @@
+.footer{
+  margin-top: 30px;
+  background: #333333;
+  padding: 35px 60px;
+
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link{
+  color: white;
+  }
+}
