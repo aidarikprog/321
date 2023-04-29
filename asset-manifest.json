@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/321/static/css/main.e765865d.css",
+    "main.js": "/321/static/js/main.c16c01fe.js",
+    "static/media/servyoga1.svg": "/321/static/media/servyoga1.0148914d73ef91cfb6114c9d91e1ac91.svg",
+    "static/media/servyoga2.svg": "/321/static/media/servyoga2.0cfa5cbeec0442a1d3d7da138610f729.svg",
+    "static/media/webyoga1.svg": "/321/static/media/webyoga1.1ba63f9ff9eb3d5326b6c4a3f99d4a68.svg",
+    "static/media/yogakita.svg": "/321/static/media/yogakita.13a263fa7f7236b16079846ccb86260d.svg",
+    "static/media/world.svg": "/321/static/media/world.5fd3d3013cbaab7310e05f2f0eb2c30b.svg",
+    "static/media/infin.svg": "/321/static/media/infin.4b79ff2b54bd9846543c6ae15ba96b2b.svg",
+    "index.html": "/321/index.html",
+    "static/media/time.svg": "/321/static/media/time.6bd3d58f359de6c194131f3dd0a1ab1f.svg",
+    "main.e765865d.css.map": "/321/static/css/main.e765865d.css.map",
+    "main.c16c01fe.js.map": "/321/static/js/main.c16c01fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e765865d.css",
+    "static/js/main.c16c01fe.js"
+  ]
+}
